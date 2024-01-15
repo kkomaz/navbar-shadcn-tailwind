@@ -1,10 +1,9 @@
-import './App.css';
-import { Button } from './components/ui/button';
+import Header from './components/Header';
 function App() {
   return (
-    <>
-      <Button>Hello</Button>
-    </>
+    <div className="flex flex-col h-screen">
+      <Header />
+    </div>
   );
 }
 
